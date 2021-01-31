@@ -7,28 +7,26 @@ ___
 
 # Results
 
- ## For the Month of __June__ from 2010 to 2017, we determined the following key statistical data:
+ ## For the Month of *June*  from 2010 to 2017, we determined the following key statistical data:
 * Total count of 1,700 data points
 * Mean of 74.9  F
 * Min temperature of 64.0 F
 * Max temperature of 85.0 F
-* 75% Max temperature of 85.0 F /
-
-<img src="Images/June_temp.PNG" widht 100>
+* 75% Max temperature of 85.0 F 
 ![ ](/Images/June_temp.PNG)
 
 ___
  
- ## For the month of __December__ from 2010 to 2016, we determined the following key statistical data:
+ ## For the month of *December* from 2010 to 2016, we determined the following key statistical data:
 - Total count of 1,517 data points
 - Mean of 71.0  F
 - Min temperature of 56 F
 - Max temperature of 83.0 F
-- 75% Max temperature of 74.0 F /
+- 75% Max temperature of 74.0 F
 
 ![ ](/Images/December_temp.PNG)
- <img src="Images/December_temp.PNG" widht 100> 
- -- Standard deviation is 3.25 in June and 3.75 -- making a .5 difference in the two different seasons
+
+ * Standard deviation is 3.25 for the June months and 3.75 for the December months-- making a .5 difference in the two different seasons
 
 ___
 *Based on a comparison of precipitation and temperature between June and December from 2010 to 2017 across all observation stations, it’s possible to notice the following statistical information:*
