@@ -4,9 +4,7 @@ Analyzing weather data in Jupyter Notebook using Python and SQLAlchemy to do bas
 ## Overview of analysis
 '<p>The purpose of our analysis is to see temperature statistics for June and December for Oahu Island to see if running a surf shop is sustainable year around. The way we get the temperature data is by running two seperate queries, one being for June and the other being December across all observation stations. Once we run our queries we store the temperatures in a list then convert them to a dataframe. Once our dataframe is created we are able to get our summary statistics by using the .describe() method. Here is what we found:</p>'
 ___
-
 # Results
-
  ## For the Month of *June*  from 2010 to 2017, we determined the following key statistical data:
 * Total count of 1,700 data points
 * Mean of 74.9  F
@@ -14,20 +12,16 @@ ___
 * Max temperature of 85.0 F
 * 75% Max temperature of 85.0 F 
 ![ ](/Images/June_temp.PNG)
-
 ___
- 
  ## For the month of *December* from 2010 to 2016, we determined the following key statistical data:
 - Total count of 1,517 data points
 - Mean of 71.0  F
 - Min temperature of 56 F
 - Max temperature of 83.0 F
 - 75% Max temperature of 74.0 F
-
 ![ ](/Images/December_temp.PNG)
 
  * Standard deviation is 3.25 for the June months and 3.75 for the December months-- making a .5 difference in the two different seasons
-
 ___
 *Based on a comparison of precipitation and temperature between June and December from 2010 to 2017 across all observation stations, it’s possible to notice the following statistical information:*
 
