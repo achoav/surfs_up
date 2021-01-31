@@ -12,9 +12,10 @@ ___
 * Mean of 74.9  F
 * Min temperature of 64.0 F
 * Max temperature of 85.0 F
-* 75% Max temperature of 85.0 F
+* 75% Max temperature of 85.0 F /
+
 <img src="Resources/June_temperatures.png" widht 100>
-![Month of June temperatures](Resources/June_temperatures.png "June Temperatures)
+![ ](Resources/June_temperatures.png)
 
 ___
  
@@ -23,7 +24,8 @@ ___
 - Mean of 71.0  F
 - Min temperature of 56 F
 - Max temperature of 83.0 F
-- 75% Max temperature of 74.0 F
+- 75% Max temperature of 74.0 F /
+
 ![Month of December temperatures](Resources/December_temperatures.png)
  <img src="Resources/December_temperatures.png" widht 100> 
  -- Standard deviation is 3.25 in June and 3.75 -- making a .5 difference in the two different seasons
