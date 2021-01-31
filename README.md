@@ -1,8 +1,8 @@
-# Surfs_up Background
+# Surfs_up Challenge
 Analyzing weather data in Jupyter Notebook using Python and SQLAlchemy to do basic termperature analysis and data exploration of your climate database in Hawaii. All of the following analysis should be completed using SQLAlchemy ORM Queries, Pandas.
 
 ## Overview of analysis
-'<p>The purpose of our analysis is to see temperature statistics for June and December to see if running a surf shop is sustainable year around. The way we get the temperature data is by running two seperate queries, one being for June and the other being December. Once we run our queries we store the temperatures in a list then convert them to a dataframe. Once our dataframe is created we are able to get our summary statistics by using the .describe() method. Here is what we found:</p>'
+'<p>The purpose of our analysis is to see temperature statistics for June and December for Oahu Island to see if running a surf shop is sustainable year around. The way we get the temperature data is by running two seperate queries, one being for June and the other being December across all observation stations. Once we run our queries we store the temperatures in a list then convert them to a dataframe. Once our dataframe is created we are able to get our summary statistics by using the .describe() method. Here is what we found:</p>'
 ___
 
 # Results
