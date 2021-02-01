@@ -39,7 +39,7 @@ ___
 
  * Standard deviation is 3.25 for the June months and 3.75 for the December months-- making a .5 difference in the two different seasons
 ___
-*Based on a comparison of precipitation and temperature between June and December from 2010 to 2017 across all observation stations, it’s possible to notice the following statistical information:*
+## Based on a comparison of precipitation and temperature between June and December from 2010 to 2017 across all observation stations, it’s possible to notice the following statistical information:*
 
 1. Over 7 years, there are 1700 temperatures reported in June, higher than 1517 temperatures reported for the monnths in December. The difference of 183 data points (1700-1517 = 183) between two months observations counts can be explained by the fact that the data of Dec, 2017 is not included in SQlite database.
 2. Comparing of temperatures, it apparently shows that June’s temperature indicators are higher than December.
@@ -53,7 +53,7 @@ ___
  ![ ](/Images/Dec_prec.PNG)
  
 
-- **Make variable recommendations for further analysis.**
+## Make variable recommendations for further analysis.
 1. The lack of data in December 2017  may cause less reliable data. The database should generate more recent winter data to compare summer and winter precipitation. 
 2. Also of statistical summary, various features and plots may help us better analyze the seasonal weather. For example, line plots would be able to provide a quick and easy way to show time-varying. Histogram plots would tell us the frequency of precipitation as well as temperature for both December and June.
 3. For seasonal analysis, we need to filter more detailed precipitation and temperatures for Spring and Autumn. 
