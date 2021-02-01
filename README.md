@@ -15,6 +15,7 @@ The purpose of our analysis is to see temperature statistics for June and Decemb
 Further, on our climatte_analysis we created a plot for precipitation.
 
 **Plot of Precipitation Analysis**
+
 ![](/Images/Precipitation_analysis.PNG)
 
 ___
@@ -47,10 +48,12 @@ ___
 4. December months are rainier than June months.  As for precipitation derivative indicators, December also had higher Standard Deviations and Maximum precipitation. In December, the standard deviation (0.541) is higher than June’s standard deviation (0.336). The minimum of both December and June are zero, and the December maximum (6.42) is higher than June (4.43).
  
  **June Precipitation**
+ 
  ![](/Images/June_prec.PNG)
  
  **December Precipitation**
- !{](/Images/Dec_prec.PNG)
+ 
+ ![](/Images/Dec_prec.PNG)
  
 
 ## Make variable recommendations for further analysis.
