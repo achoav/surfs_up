@@ -8,15 +8,15 @@ The 'hawaii.sqlite' table 'Stations':
 The 'hawaii.sqlite' table 'Measurments':
 
  ![ ](/Images/Measurement.PNG)
-
 ___
 ## Overview of analysis
-'<p>The purpose of our analysis is to see temperature statistics for June and December for Oahu Island to see if running a surf shop is sustainable year around. The way we get the temperature data is by running two seperate queries, one being for June and the other being December across all observation stations. Once we run our queries we store the temperatures in a list that is converted to a dataframe. Once our dataframe is created, we are able to get our summary statistics by using the .describe() method. </p>'
-'<p>Further, on our climatte_analysis we created a plot for precipitation.</p>'
+The purpose of our analysis is to see temperature statistics for June and December for Oahu Island to see if running a surf shop is sustainable year around. The way we get the temperature data is by running two seperate queries, one being for June and the other being December across all observation stations. Once we run our queries we store the temperatures in a list that is converted to a dataframe. Once our dataframe is created, we are able to get our summary statistics by using the .describe() method.
 
+Further, on our climatte_analysis we created a plot for precipitation.
+
+**Plot of Precipitation Analysis**
 ![ ](/Images/Precipitation_analysis.PNG)
 
-Here is what we found:</p>'
 ___
 # Results
  ## For the month of *June*  from 2010 to 2017, we determined the following key statistical data:
