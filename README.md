@@ -50,9 +50,11 @@ ___
 
  4. December months are rainier than June months.  As for precipitation derivative indicators, December also had higher Standard Deviations and Maximum precipitation. In December, standard deviation (0.541) is higher than June’s standard deviation (0.336). The minimum of both December and June are zero, and December maximum (6.42) is higher than June (4.43).
  
+ **June Precipitation**
  ![ ](/Images/June_prec.PNG)
  
- ![ ](/Images/Dec_prec.PNG)
+ **December Precipitation**
+ ![](/Images/Dec_prec.PNG)
  
 
 - **Make variable recommendations for further analysis.**
