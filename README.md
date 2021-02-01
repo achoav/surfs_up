@@ -7,13 +7,14 @@ The 'hawaii.sqlite' table 'Stations':
 
 The 'hawaii.sqlite' table 'Measurments':
 
- ![ ](/Images/Measurements.PNG)
+ ![ ](/Images/Measurement.PNG)
 
 ___
 ## Overview of analysis
 '<p>The purpose of our analysis is to see temperature statistics for June and December for Oahu Island to see if running a surf shop is sustainable year around. The way we get the temperature data is by running two seperate queries, one being for June and the other being December across all observation stations. Once we run our queries we store the temperatures in a list that is converted to a dataframe. Once our dataframe is created, we are able to get our summary statistics by using the .describe() method. </p>'
 '<p>Further, on our climatte_analysis we created a plot for precipitation.</p>'
-![ ](/Images/Precipitation Analysis.PNG)
+
+![ ](/Images/Precipitation_analysis.PNG)
 
 Here is what we found:</p>'
 ___
@@ -41,23 +42,28 @@ ___
 *Based on a comparison of precipitation and temperature between June and December from 2010 to 2017 across all observation stations, it’s possible to notice the following statistical information:*
 
 
- 1. Over 7 years, there are 1574 precipitations occurred and 1700 temperatures  observed in June, higher than 1405 precipitations and 1517 temperatures  observed in December. The different (1700-1517 = 183) between two observations counts that indicate the data of Dec, 2017 is not included in database.
+ 1. Over 7 years, there are 1700 temperatures reported in June, higher than 1517 temperatures reported for the monnths in December. The difference of 183 data points (1700-1517 = 183) between two months observations counts can be explained by the fact that the data of Dec, 2017 is not included in SQlite database.
+ 
+ 2. Comparing of temperatures, it apparently shows that June’s temperature indicators are higher than December.
 
- 2. Comparing of precipitation, the mean (0.217) and median (0.03) of December are higher than June’s mean (0.136) and median (0.02), respectively. 
+ 3. Comparing of precipitation, the mean (0.217) and median (0.03) of December are higher than June’s mean (0.136) and median (0.02), respectively. 
 
- 3. For precipitation derivative indicators, December also had higher Standard Deviations and Maximum precipitation. In December, standard deviation (0.541) is higher than June’s standard deviation (0.336). The minimum of both December and June are zero, and December maximum (6.42) is higher than June (4.43).
-
- 4. Comparing of temperatures, it apparently shows that June’s temperature indicators are higher than December.
+ 4. December months are rainier than June months.  As for precipitation derivative indicators, December also had higher Standard Deviations and Maximum precipitation. In December, standard deviation (0.541) is higher than June’s standard deviation (0.336). The minimum of both December and June are zero, and December maximum (6.42) is higher than June (4.43).
+ 
+ ![ ](/Images/June_prec.PNG)
+ 
+ ![ ](/Images/Dec_prec.PNG)
+ 
 
 - **Make variable recommendations for further analysis.**
 
 
  1. The lack of data in December, 2017  may cause less reliable of data. The database should generate more recently winter data to compare summer and winter precipitation. 
 
- 2. In addition of statistical summery, various features and plots may help us better analyze the seasonal weather. For example, line plots would be able to  provide quick and easy way to show time-varying. Histogram plots would tell us frequency of precipitation as well as temperature for both December and Jane.
+ 2. In addition of statistical summery, various features and plots may help us better analyze the seasonal weather. For example, line plots would be able to  provide quick and easy way to show time-varying. Histogram plots would tell us frequency of precipitation as well as temperature for both December and June.
 
  3. For seasonal analysis, we need filter more detail precipitation and temperatures for Spring and Autumn. 
 
 # Summary 
 
-From the queries required on the challenge, we can tell the temperature behavior for the months of June and July.  However, besides temperature, preciptiation is an important fact for surfers.  On the module we ran a precipitation query
+From the queries required on the challenge, we can tell the temperature behavior for the months of June and December.  However, besides temperature, preciptiation is an important fact for surfers.  On the module we ran a precipitation query so users can have further information on the Winter an Summer months in regards to rain/
