@@ -1,8 +1,21 @@
 # Surfs_up Challenge
-Analyzing weather data in Jupyter Notebook using Python and SQLAlchemy to do basic termperature analysis and data exploration of your climate database in Hawaii. All of the following analysis should be completed using SQLAlchemy ORM Queries, Pandas.
+Analyzing weather data in Jupyter Notebook using Python, SQLAlchemy, Matplotlib and Flask to do visualize climate data as you prepare to open a surf shop. All of the following analysis should be completed using SQLAlchemy ORM (Object Relational Mapper) Queries, Pandas and Flask.  We will use a 'hawaii.sqlite' file that contains data for several (9 *nine*) weather stations.
 
+The 'hawaii.sqlite' table 'Stations':
+
+![ ](/Images/Stations.PNG)
+
+The 'hawaii.sqlite' table 'Measurments':
+
+ ![ ](/Images/Measurements.PNG)
+
+___
 ## Overview of analysis
-'<p>The purpose of our analysis is to see temperature statistics for June and December for Oahu Island to see if running a surf shop is sustainable year around. The way we get the temperature data is by running two seperate queries, one being for June and the other being December across all observation stations. Once we run our queries we store the temperatures in a list then convert them to a dataframe. Once our dataframe is created we are able to get our summary statistics by using the .describe() method. Here is what we found:</p>'
+'<p>The purpose of our analysis is to see temperature statistics for June and December for Oahu Island to see if running a surf shop is sustainable year around. The way we get the temperature data is by running two seperate queries, one being for June and the other being December across all observation stations. Once we run our queries we store the temperatures in a list that is converted to a dataframe. Once our dataframe is created, we are able to get our summary statistics by using the .describe() method. </p>'
+'<p>Further, on our climatte_analysis we created a plot for precipitation.</p>'
+![ ](/Images/Precipitation Analysis.PNG)
+
+Here is what we found:</p>'
 ___
 # Results
  ## For the month of *June*  from 2010 to 2017, we determined the following key statistical data:
@@ -28,7 +41,7 @@ ___
 *Based on a comparison of precipitation and temperature between June and December from 2010 to 2017 across all observation stations, it’s possible to notice the following statistical information:*
 
 
- 1. Over 7 years, there are 1574 precipitations occurred and 1700 temperatures  observed in June, higher than 1405 precipitations and 1517 temperatures  observed in December. The different (1700-1517 = 183) between two observations counts that indicate the data of Dec, 2017 not included in database.
+ 1. Over 7 years, there are 1574 precipitations occurred and 1700 temperatures  observed in June, higher than 1405 precipitations and 1517 temperatures  observed in December. The different (1700-1517 = 183) between two observations counts that indicate the data of Dec, 2017 is not included in database.
 
  2. Comparing of precipitation, the mean (0.217) and median (0.03) of December are higher than June’s mean (0.136) and median (0.02), respectively. 
 
