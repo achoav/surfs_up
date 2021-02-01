@@ -3,11 +3,11 @@ Analyzing weather data in Jupyter Notebook using Python, SQLAlchemy, Matplotlib 
 
 The 'hawaii.sqlite' table 'Stations':
 
-![ ](/Images/Stations.PNG)
+![](/Images/Stations.PNG)
 
 The 'hawaii.sqlite' table 'Measurments':
 
- ![ ](/Images/Measurement.PNG)
+![](/Images/Measurement.PNG)
 ___
 ## Overview of analysis
 The purpose of our analysis is to see temperature statistics for June and December for Oahu Island to see if running a surf shop is sustainable year around. The way we get the temperature data is by running two seperate queries, one being for June and the other being December across all observation stations. Once we run our queries we store the temperatures in a list that is converted to a dataframe. Once our dataframe is created, we are able to get our summary statistics by using the .describe() method.
@@ -15,7 +15,7 @@ The purpose of our analysis is to see temperature statistics for June and Decemb
 Further, on our climatte_analysis we created a plot for precipitation.
 
 **Plot of Precipitation Analysis**
-![  ](/Images/Precipitation_analysis.PNG)
+![](/Images/Precipitation_analysis.PNG)
 
 ___
 # Results
@@ -26,7 +26,7 @@ ___
 * Max temperature of 85.0 F
 * 75% Max temperature of 85.0 F 
 
-![ ](/Images/June_temp.PNG)
+![](/Images/June_temp.PNG)
 ___
  ## For the month of *December* from 2010 to 2016, we determined the following key statistical data:
 - Total count of 1,517 data points
@@ -35,11 +35,11 @@ ___
 - Max temperature of 83.0 F
 - 75% Max temperature of 74.0 F
 
-![ ](/Images/December_temp.PNG)
+![](/Images/December_temp.PNG)
 
  * Standard deviation is 3.25 for the June months and 3.75 for the December months-- making a .5 difference in the two different seasons
 ___
-## Based on a comparison of precipitation and temperature between June and December from 2010 to 2017 across all observation stations, it’s possible to notice the following statistical information:*
+### Based on a comparison of precipitation and temperature between June and December from 2010 to 2017 across all observation stations, it’s possible to notice the following statistical information:
 
 1. Over 7 years, there are 1700 temperatures reported in June, higher than 1517 temperatures reported for the monnths in December. The difference of 183 data points (1700-1517 = 183) between two months observations counts can be explained by the fact that the data of Dec, 2017 is not included in SQlite database.
 2. Comparing of temperatures, it apparently shows that June’s temperature indicators are higher than December.
@@ -47,10 +47,10 @@ ___
 4. December months are rainier than June months.  As for precipitation derivative indicators, December also had higher Standard Deviations and Maximum precipitation. In December, the standard deviation (0.541) is higher than June’s standard deviation (0.336). The minimum of both December and June are zero, and the December maximum (6.42) is higher than June (4.43).
  
  **June Precipitation**
- ![  ](/Images/June_prec.PNG)
+ ![](/Images/June_prec.PNG)
  
  **December Precipitation**
- ![ ](/Images/Dec_prec.PNG)
+ !{](/Images/Dec_prec.PNG)
  
 
 ## Make variable recommendations for further analysis.
